@@ -1,0 +1,62 @@
+@media print {
+    html {
+        font-size: x-small;
+    }
+
+    .header {
+        display: none !important;
+    }
+
+    .list_horizontal_cont {
+        display: none !important;
+    }
+
+    .footer_contact {
+        display: none !important;
+    }
+
+    .footer {
+        display: none !important;
+    }
+
+    .mfp-hide {
+        display: none !important;
+    }
+
+    .icon {
+        display: none !important;
+    }
+
+    svg {
+        display: none !important;
+    }
+
+    img {
+        display: none !important;
+    }
+
+    a.item_func {
+        text-decoration: none !important;
+        line-height: normal !important;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    button {
+        display: none;
+    }
+
+    a {
+        display: none;
+    }
+}
