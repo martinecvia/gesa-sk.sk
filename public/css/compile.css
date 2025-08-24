@@ -387,8 +387,9 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     margin: 0 !important;
-    /*background: #2d4156;*/
-    background: #272a39;
+    background: #323232 url("../svg/zilina-contour-lines.svg");
+    background-position: center;
+    background-size: cover;
 }
 body,
 button,
@@ -4781,13 +4782,13 @@ html:not(.no-js) .masonry_item.masonry-scale {
     font-size: 14px;
 }
 .elm_loading_loader:not([data-loading-text]) {
-    background: url(../layout/loading_s.svg) center center no-repeat;
+    background: url(../public/loading_s.svg) center center no-repeat;
 }
 .elm_loading_loader[data-loading-text]:before {
     content: attr(data-loading-text);
     display: block;
     padding-left: 28px;
-    background: url(../layout/loading_s.svg) left center no-repeat;
+    background: url(../public/loading_s.svg) left center no-repeat;
 }
 .elm_loading.loading .elm_loading_loader {
     opacity: 1;
