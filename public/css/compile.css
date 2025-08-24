@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .btn_location strong:empty,
 .switch_scale:not(.sactive),
 :not(.cactive) > .dropdown_scale,
