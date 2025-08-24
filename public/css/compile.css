@@ -387,7 +387,8 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     margin: 0 !important;
-    background: #2d4156;
+    /*background: #2d4156;*/
+    background: #272a39;
 }
 body,
 button,
@@ -13497,7 +13498,7 @@ html.no-objectfit .item_popnews_img {
 }
 .footer_contact {
     color: #8f919e;
-    padding-top: 90px;
+    padding-top: 25px;
     padding-bottom: 65px;
 }
 .footer_cols {
