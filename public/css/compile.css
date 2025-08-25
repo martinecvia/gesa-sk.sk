@@ -387,9 +387,8 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     margin: 0 !important;
-    background: #323232 url("../svg/zilina-contour-lines.svg");
-    background-position: center;
-    background-size: cover;
+    /* https://buntinglabs.com/tools/download-topo-map-contour-lines */
+    background: #323232 url("../svg/zilina-contour-lines.svg") center/cover no-repeat;
 }
 body,
 button,
@@ -1077,7 +1076,7 @@ hr {
 .item_movie.light,
 .main,
 .popup_confirm:not([class*="bg_"]) {
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 .grid {
     display: -webkit-box;
@@ -9074,7 +9073,7 @@ html.no-objectfit .item_popnews_img {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #000;
+    /*background: #000;*/
 }
 .slider_bgimage .slick-list,
 .slider_bgimage .slick-slide,
@@ -9134,7 +9133,7 @@ html.no-objectfit .item_popnews_img {
     display: -webkit-box;
     display: flex;
     position: relative;
-    background-color: #272a39;
+    /*background-color: #272a39;*/
 }
 .box_hero_sizer {
     width: 100%;
