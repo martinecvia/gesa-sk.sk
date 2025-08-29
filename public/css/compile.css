@@ -1657,24 +1657,6 @@ hr {
     margin-left: 40px;
     min-width: 0;
 }
-.box_func.bg_grey + .box_text,
-.box_func.bg_grey_border + .box_text,
-.box_func_cont.bg_grey + .box_text,
-.box_func_cont.bg_grey_border + .box_text,
-.box_howmany + .hr,
-.box_text + .bg_grey,
-.box_text + .bg_grey_border,
-.box_text + .hr,
-.box_text.wrapper7 + .box_func.bg_grey,
-.box_text.wrapper7 + .box_func.bg_grey_border,
-.box_text.wrapper7 + .box_func_cont.bg_grey_border,
-.box_text.wrapper7 + .box_text.wrapper7,
-.grid.mid-space > .indent_double,
-.grid.mid-space > .offset_double,
-.page_article_text + .box_text,
-.page_article_title + .box_text.wrapper7 {
-    margin-top: 80px;
-}
 .grid.wide-space {
     margin-left: -90px;
 }
@@ -10780,7 +10762,7 @@ html.no-objectfit .item_popnews_img {
     border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 .hr + .box_text {
-    margin-top: 85px;
+    margin-top: 55px;
 }
 .main > .box_movies:last-child,
 .main > .box_text:last-child {
